@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+</head>
+
+<body>
+    <div class="fundo">
+        <div class="titulo">
+            <h1>Pedra, Papel e Tesoura</h1>
+        </div>
+        <br>
+        <button class="btn-mudar" id="mudar-nome">
+            Mudar Nome
+        </button>
+        <div class="result">
+            <h1>Resultado da partida</h1>
+            <p id="result-text">Resultado:</p>
+        </div>
+        <div class="game-container">
+            <div class="user">
+                <div class="box">
+                        <h2 id="Nomeplacar">Você</h2>
+                        <div class="score" id="user-score">3</div>
+                        <h2><img src="" id="imagens-result1" alt="resultado Usuario"></h2>
+                </div>
+            </div>
+            <div class="machine">
+                <div class="box">
+                        <h2>Máquina</h2>
+                        <div class="score" id="machine-score">3</div>
+                        <h2><img src="" id="imagens-result2" alt="Resultado Maquina"></h2>
+                </div>
+            </div>
+        </div>
+        <div id="Meioca">
+            <div class="fundo-btn" id="buttons">
+                <div class="texto-escolha">
+                    <h3>Escolha uma opção</h3>
+                </div>
+                <div class="btns">
+                    <div class="btn-opcoes" id="button1"> <span>Pedra</span>
+                    </div>
+                    <div class="btn-opcoes" id="button2"> <span>Papel</span>
+                    </div>
+                    <div class="btn-opcoes" id="button3"> <span>Tesoura</span>
+                    </div>
+                </div>
+            </div>
+            
+                <div class="texto-como">
+                    <h3>Como Funciona?</h3>
+                    <button class="btn-mudar" id="button-reload">Entenda</button>
+                </div>
+            
+            <div id="hidden-end" class="oculto">
+                <div class="mensagem" id="mensagem">
+                    <h1 id="h1-end">egge</h1>
+                    <button class="btn-mudar" id="button-reload2">Jogar Novamente</button>
+                    <br>
+                    <img src="" alt="" id="imagem-final">
+                </div>
+            </div>
+    </div>
+
+
+        <script src="index.js"></script>
+
+</body>
+
+</html>
